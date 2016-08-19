@@ -3,8 +3,8 @@ echo 001002
 echo You are in a wide open plain with grass on the ground.
 echo The grass is green, but everything is very quiet.
 echo.
-echo Aviable commands:
-echo north, west, explore, quit
+echo Available commands:
+echo north, west, south, explore, quit
 
 set /p selection=">_ "
 
@@ -18,8 +18,8 @@ if "%selection%" == "east" echo You suddenly feel a deep fear of invisible buffa
 if "%selection%" == "west" set /a x=%x%+1
 if "%selection%" == "west" echo You just went for a stroll, and suddenly you were a tile farther west.
 
-if "%selection%" == "south" rem set /a y=%y%+1
-if "%selection%" == "south" echo There seems like there should be a passage here, but its probably not implemented just yet.
+if "%selection%" == "south" set /a y=%y%+1
+if "%selection%" == "south" echo There's a passage! look! i add stuff!
 
 if "%selection%" == "explore" echo You can't see an invisible buffalo to the east and other than that there seems like there isn't much noteworthy.
 
