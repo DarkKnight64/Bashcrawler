@@ -23,8 +23,8 @@ if "%selection%" == "south" echo Hey look, no invisible buffalo!
 
 if "%selection%" == "explore" echo There's masses of dead bodies, and a secret cave...Type enter cave to enter
 
-if "%selection%" == "enter cave" echo Wow...Unimplemented stuff sure looks cool...
-::call 003001.bat
+if "%selection%" == "enter cave" echo You enter the cave...
+call 003001.bat
 
 if "%selection%" == "quit" goto quit
 
