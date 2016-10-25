@@ -19,7 +19,8 @@ if "%selection%" == "west" set /a x=%x%+1
 if "%selection%" == "west" echo You just went for a stroll, and suddenly you were a tile farther west.
 
 if "%selection%" == "south" set /a y=%y%+1
-if "%selection%" == "south" echo There's a passage! look! i add stuff!
+if "%selection%" == "south" echo There's a passage!
+call 001003.bat
 
 if "%selection%" == "explore" echo You can't see an invisible buffalo to the east and other than that there seems like there isn't much noteworthy.
 
