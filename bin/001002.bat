@@ -20,9 +20,9 @@ if "%selection%" == "west" echo You just went for a stroll, and suddenly you wer
 
 if "%selection%" == "south" set /a y=%y%+1
 if "%selection%" == "south" echo There's a passage!
-call 001003.bat
+call 002002.bat
 
-if "%selection%" == "explore" echo You can't see an invisible buffalo to the east and other than that there seems like there isn't much noteworthy.
+if "%selection%" == "explore" echo You can't see an invisible buffalo to the east and other than that there seems like there really isn't much noteworthy.
 
 if "%selection%" == "quit" goto quit
 
